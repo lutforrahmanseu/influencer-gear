@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    margin-left: 25px;
+    
+}
+ .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    margin-right: 5px;
+    color:#3A3A3A;
+    padding: 15px;
+    text-decoration: none;
+   
+}
+.head-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+} 
+.icon1{
+    width: 24px;
+    height: 24px;
+}
+.icon2{
+    width: 36px;
+    height: 36px;
+}
+
+
+/* first section  */
+.main-container{
+    display: flex;
+}
+.half-width{
+  width: 50%;
+  margin-top: 100px;
+   
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+    gap: 8px;
+    margin-top: 16px;
+    color:  #FFFFFF;
+    border: none;
+    border-radius: 41px;
+    background-color:  #E02C6D;
+}
+
+.half-width img{
+    position: relative;
+    border: 1px solid rgb(196, 190, 190);
+    border-radius: 250px;
+    margin-left: 50px;
+    width: 440px;
+    height: 414px;
+    
+}
+/*---------------------- company --------------- */
+.companys{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-top:2px solid rgb(241, 239, 239) ;
+    border-bottom: 2px solid rgb(241, 239, 239);
+    border-radius: 2px;
+  
+    
+
+}
+.company{
+    width: 986.47px;
+    height: 39.61px;
+}
+.company-img{
+    margin: 15px;
+}
+
+    /*------------- popular collection--------------------- */
+    .popular-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 25px;
+        margin-top: 50px;
+        width: 1147px;
+        height: 1662px; 
+    }
+   .see{
+    text-align: end;
+    color:rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+    gap: 8px;
+    margin-top: 16px;
+   }
+   /* Featured section */
+    .gear{
+        width: 1110px;
+       height: 270px;
+    }
+   .gear img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+   }
+
+   footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+    
+   }
+   .copy{
+    text-align: center;
+   }
+  
